@@ -26,12 +26,21 @@ history
 ```
 
 `image_path` points to the desired directory to save the images.
+
 `resolution` specifies the target resolution of the wallpaper.
+
 `aspect_ratio` specifies the target aspect ratio of the wallpaper.
+
 `limit_resolution` is a boolean which specifies if the resolution should be limited.
+
 `limit_aspect_ratio` is a boolean which specifies if the aspect ratio should be limited.
+
 `allow_larger_resolution` is the maximum resolution if `limit_resolution` is set to true.
+
 `allow_nfsw` is a boolean which allows for posts marked as "NSFW" on Reddit to be included in the image set.
+
 `sort_by` is the Reddit sorting method.
+
 `sort_limit` is the number of posts returned from the Reddit sort.
+
 `history` is a boolean which specifies if past wallpapers should be reused if it matches the search criteria.
